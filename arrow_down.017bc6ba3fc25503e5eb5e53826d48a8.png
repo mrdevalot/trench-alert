@@ -1,0 +1,1 @@
+__d(function(g,r,i,a,m,e,d){"use strict";function t(t){const n=t.trim();if(n.length<32||n.length>44)return!1;return/^[1-9A-HJ-NP-Za-km-z]+$/.test(n)}Object.defineProperty(e,'__esModule',{value:!0}),e.isSolanaAddress=t,e.detectSearchType=function(n){if(t(n.trim()))return'address';return'ticker'}},867,[]);
